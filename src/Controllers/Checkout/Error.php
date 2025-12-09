@@ -3,6 +3,7 @@
 namespace Controllers\Checkout;
 
 use Controllers\PublicController;
+
 class Error extends PublicController
 {
     public function run(): void
@@ -11,5 +12,3 @@ class Error extends PublicController
         die();
     }
 }
-
-?>

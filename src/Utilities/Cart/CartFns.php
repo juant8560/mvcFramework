@@ -1,7 +1,9 @@
-<?php 
+<?php
+
 namespace Utilities\Cart;
 
-class CartFns {
+class CartFns
+{
 
     public static function getAuthTimeDelta()
     {
@@ -11,9 +13,13 @@ class CartFns {
 
     public static function getUnAuthTimeDelta()
     {
-        return 600 ;// 10 * 60; //h , m, s
+        return 600; // 10 * 60; //h , m, s
         // No puede ser mayor a 34 días
     }
-}
 
-?>
+    public static function getAnnonCartCode()
+    {
+        // Genera un código único de carrito no autenticado
+        return bin2hex(random_bytes(8));
+    }
+}
