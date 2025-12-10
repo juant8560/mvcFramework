@@ -26,7 +26,7 @@ abstract class PrivateController extends PublicController
 {
     private function _isAuthorized()
     {
-        $userType = \Utilities\Security::getUserType();
+        $userType = \Utilities\Security::getUsertipo();
 
         // ADM y AUD tienen acceso completo
         if ($userType === 'ADM' || $userType === 'AUD') {
