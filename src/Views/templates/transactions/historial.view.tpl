@@ -19,5 +19,6 @@
     {{endfor transacciones}}
   {{else}}
     <p>No hay transacciones registradas.</p>
+    <a href="index.php?page=Products_Products" style="background-color:#5dade2; color:white; padding: 3xp 12px ; border-radius:5px; text-decoration:none;">Ir a Products</p>
   {{endif transacciones}}
 </section>

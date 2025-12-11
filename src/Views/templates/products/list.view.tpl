@@ -38,5 +38,5 @@
       {{endfor products}}
     </tbody>
   </table>
-  <a href="http://localhost:8080/mvcFramework/index.php?page=Transactions_Transactions" style="color:white;">Ir a Transacciones</a>
+  <a href="http://localhost:8080/mvcFramework/index.php?page=Transactions_Transactions" style="background-color:#5dade2; color:white; padding:8px 12px; border-radius:5px; text-decoration:none;">Ir a Transacciones</a>
 </section>
